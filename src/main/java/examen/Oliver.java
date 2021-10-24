@@ -1,6 +1,5 @@
 package examen;
 import jade.core.Agent;
-
 import java.math.BigInteger;
 import java.util.HashMap;
 
@@ -17,13 +16,6 @@ public class Oliver extends Agent {
         catalogo.put(titulo,new BigInteger(String.valueOf(copias)));
     }
 
-    Object[] args = getArguments();
-	if (args != null) {
-        for (int i = 0; i < args.length; i++) {
-            System.out.println("Argument " + i + ": " + args[i].toString());
-        }
-    } else {
-        System.out.println("No arguments");
-    }
+
 
 }

@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 public class MainTest {
     @Test
     public void Test01(){
+        Estudiante carlos;
 
     }
 
